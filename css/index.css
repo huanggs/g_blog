@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+*{ margin: 0px; padding: 0px;}
+body {font-family: "微软雅黑"; font-size: 12px;}
+#head,#content,#nav {width: 1000px;margin-right: auto; margin-left: auto;}
+.clear {clear: both;}
+
+/*head*/
+#head { height: 70px;}
+#blog_name { height: 30px; padding-top: 10px;}
+#blog_des {}
+#nav { height: 25px; font-weight: bolder;}
+#nav ul { padding-left: 0px;}
+#nav ul,li { margin-right: 10px; text-decoration: none; list-style: none; float: left;}
+#nav ul li a{ text-decoration: none; color:#333;}
+/*end of head*/
+
+/*content*/
+#content { border: 1px solid #d7d7d7; background: -webkit-gradient(linear,left bottom,left top,from(#EEE),to(#f8f8f8)); height: 2000px; -webkit-box-shadow: 3px 3px 3px gray;}
+.article_ctn h1 { font-size: 16px;}
+.atcl_info {color: #666;}
+.atcl_ctn {color:#111;}
+/*end of content*/
+.article_ctn {font-size:12px; font-color:#069; padding: 20px;}
