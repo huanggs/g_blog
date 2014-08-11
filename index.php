@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <head>
 	<meta charset="utf-8" />
-	<title><?=$blog_name?> - 首页</title>
+	<title>首页 - <?=$blog_name?></title>
 	<?php include 'inc/css.html';?>
 </head>
 

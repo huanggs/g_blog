@@ -3,7 +3,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title><?=$blog_name?> - 写日志</title>
+<title>写日志 - <?=$blog_name?></title>
 	<?php include '../inc/css.html';?>
 </head>
 
@@ -11,8 +11,9 @@
 		<?php include '../inc/top.php';?>
 		<?php include '../inc/nav.php';?>
 		<div class="CreatBlog center n_bg">
-            <p><label>输入标题：</label><input></input></p>
-            <p><label>输入内容：</label><textarea name="" cols="100" rows="20"></textarea></p>
+            <p><label>输入标题：</label><input type="text"></input></p>
+            <p><label>输入内容：</label><textarea name="" cols="86" rows="20"></textarea></p>
+            <p><div class="submit center"><input name="submit" class="submit" type="button" value="发布"></div></p>
         </div>
 </body>
 </body>

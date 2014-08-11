@@ -5,7 +5,7 @@ body {font-family: "微软雅黑"; font-size: 12px;}
 .center { margin-left:auto; margin-right:auto;}
 
 /*button*/
-.green_btn,.nav ul li a {display:block; text-align:center; text-decoration: none; color:#fff; background:#390; border-radius:3px; margin-right:20px; padding:5px;}
+.green_btn,.nav ul li a {display:block; text-align:center; text-decoration: none; color:#fff; background:#390; border-radius:5px; margin-right:20px; padding:5px; box-shadow:1px 1px 1px #006600,1px 1px 1px #009933 inset;}
 /*end of button*/
 
 .clear {clear: both;}
@@ -19,18 +19,20 @@ body {font-family: "微软雅黑"; font-size: 12px;}
 .nav ul { padding-left: 0px;}
 .nav ul,li { margin-right: 10px; text-decoration: none; list-style: none; float: left; font-size:14px;}
 .nav ul li a{ width:80px;}
+.nav ul li a:hover {opacity:0.60;}
 /*end of head*/
 
 /*content*/
-.content { width:940px; padding:0px 30px;}
+.content { width:940px; padding:0px 30px; margin-top:10px;}
 .article_ctn h1 { font-size: 16px; margin-top:20px;}
 .atcl_info {color: #666; margin-top:10px;}
 .atcl_ctn {color:#030; margin-top:10px; padding:20px; padding: 20px; border:1px #A5E184 solid; border-radius:5px; background:#EEFFD2; text-indent:2em; font-size:14px; line-height:24px;}
 /*end of content*/
 .article_ctn { font-color:#069;}
 
-.CreatBlog { width:940px; padding:30px;}
-.CreatBlog p { line-height:60px;}
-.CreatBlog label { font-size:18px;}
-.CreatBlog input { width:500px; height:40px; font-size:18px;}
-.CreatBlog textarea { font-size:14px;}
+.CreatBlog { width:940px; height:800px; padding:20px 30px; margin-top:10px;}
+.CreatBlog p { line-height:30px; margin-bottom:20px;}
+.CreatBlog label { font-size:16px; vertical-align:top;}
+.CreatBlog input { width:700px; height:30px; font-size:16px;}
+.CreatBlog textarea { font-size:16px;}
+.CreatBlog .submit { width:100px;}
