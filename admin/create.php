@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8">
 <title>写日志 - <?=$blog_name?></title>
-	<?php include '../inc/css.html';?>
+	<link rel="stylesheet" type="text/css" href="../css/main.css">
 </head>
 
 <body>
