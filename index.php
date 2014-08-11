@@ -1,16 +1,16 @@
-<?php include 'inc/conn.php'; ?>
+<?php include '/inc/conn.php'; ?>
 <!DOCTYPE html>
 <head>
 	<meta charset="utf-8" />
-	<title><?=$blog_name?></title>
-	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<title><?=$blog_name?> - 首页</title>
+	<?php include 'inc/css.html';?>
 </head>
 
 <body>
-	<div id="main">
+	<div class="main center">
 		<?php include 'inc/top.php';?>
 		<?php include 'inc/nav.php';?>
-		<div id="content">
+		<div class="content center n_bg">
 			<?php while ($data_atcl_info=mysql_fetch_array($query_atcl_info)) {
 				include 'inc/atcl_list.php';
 				}

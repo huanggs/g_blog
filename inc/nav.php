@@ -1,4 +1,4 @@
-		<div id="nav">
+		<div class="nav center">
 			<ul>
 				<li><a href="index.php">首页</a></li>
 				<li><a href="list.php">文章列表</a></li>
