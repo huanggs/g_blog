@@ -30,6 +30,11 @@ body {font-family: "微软雅黑"; font-size: 12px;}
 /*end of content*/
 .article_ctn { font-color:#069;}
 
+/*footer*/
+.footer { width: 1000px; padding: 20px; text-align: center;}
+/*end of footer*/
+
+/*admin_create*/
 .CreatBlog { width:940px; height:800px; padding:20px 30px; margin-top:10px;}
 .CreatBlog p { line-height:30px; margin-bottom:20px;}
 .CreatBlog label { font-size:16px; vertical-align:top;}

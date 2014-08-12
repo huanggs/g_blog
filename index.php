@@ -18,8 +18,6 @@
 		</div>
 	</div>
 
-	<footer>
-		
-	</footer>
+	<div class="footer center">2014 by GhostHuang</div>
 </body>
 </html>

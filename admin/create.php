@@ -9,7 +9,7 @@
 
 <body>
 		<?php include '../inc/top.php';?>
-		<?php include '../inc/nav.php';?>
+		<?php include '../inc/nav2.php';?>
 		<div class="CreatBlog center n_bg">
             <p><label>输入标题：</label><input type="text"></input></p>
             <p><label>输入内容：</label><textarea name="" cols="86" rows="20"></textarea></p>
