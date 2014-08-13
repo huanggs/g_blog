@@ -5,7 +5,9 @@
   <title>首页 - <?=$blog_name?></title>
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/buttons.css">
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery-1.11.1.min.js"></script>
 </head>
 
 <body>
