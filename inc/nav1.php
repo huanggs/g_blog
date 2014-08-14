@@ -1,9 +1,9 @@
-		<div class="nav center">
+		<div class="col-sm-12 nav">
 			<ul>
-				<li><a href="index.php" class="button button-rounded button-primary">首页</a></li>
-				<li><a href="list.php" class="button button-rounded button-primary">文章列表</a></li>
-				<li><a href="pro.php" class="button button-rounded button-primary">个人资料</a></li>
-				<li><a href="album.php" class="button button-rounded button-primary">相册</a></li>
-				<li class="creat_btn"><a href="admin/create.php" class="button button-rounded button-action">发日志</a></li>
+				<li><a href="index.php" class="btn btn-sm btn-success">首页</a></li>
+				<li><a href="list.php" class="btn btn-sm btn-success">文章列表</a></li>
+				<li><a href="pro.php" class="btn btn-sm btn-success">个人资料</a></li>
+				<li><a href="album.php" class="btn btn-sm btn-success">相册</a></li>
+				<li class="creat_btn"><a href="admin/create.php" class="btn btn-sm btn-warning">发日志</a></li>
 			</ul>
 		</div>
