@@ -17,9 +17,11 @@
       <?php include '../inc/top.php';?>
       <?php include '../inc/nav2.php';?>
       <div class="col-sm-12 CreatBlog n_bg">
-        <p><label>输入标题：</label><input type="text"></input></p>
-        <p><label>输入内容：</label><textarea name="" cols="86" rows="10"></textarea></p>
-        <p><div class="submit center"><input name="submit" class="submit btn btn-sm btn-primary" type="button" value="发布"></div></p>
+        <form method="post" action="../inc/create_atcl.php">
+          <p><label>输入标题：</label><input type="text" name="atcl_title"></input></p>
+          <p><label>输入内容：</label><textarea name="atcl_content" cols="80" rows="10"></textarea></p>
+          <p><div class="submit center"><input class="submit btn btn-sm btn-primary" type="submit" value="发布"></div></p>
+        </form>
       </div>
     <?php include '../inc/footer.php';?>
     </div>
