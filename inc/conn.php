@@ -12,7 +12,7 @@
 		$blog_des=$data_blog_info['blog_des'];
 	}
 	//调用单篇博客信息
-	$query_atcl_info=mysql_query("SELECT * FROM atcl_info");
+	$query_atcl_info=mysql_query("SELECT * FROM atcl_info ORDER BY id DESC");
 	//while ($data_atcl_info=mysql_fetch_array($query_atcl_info)) {
 	//	$title=$data_atcl_info['title'];
 	//	$content=$data_atcl_info['content'];
