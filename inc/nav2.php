@@ -1,4 +1,4 @@
-		<div class="col-sm-12 nav">
+		<div class="my_nav">
 			<ul>
 				<li><a href="../index.php" class="btn btn-sm btn-success">首页</a></li>
 				<li><a href="../list.php" class="btn btn-sm btn-success">文章列表</a></li>

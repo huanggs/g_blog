@@ -16,6 +16,6 @@
 	//while ($data_atcl_info=mysql_fetch_array($query_atcl_info)) {
 	//	$title=$data_atcl_info['title'];
 	//	$content=$data_atcl_info['content'];
-	//	$date=$data_atcl_info['date'];
+	//	$atcl_date=$data_atcl_info['atcl_date'];
 	//}
 ?>
