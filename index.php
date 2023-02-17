@@ -17,7 +17,7 @@
     <?php include 'inc/top.php';?>
     <?php include 'inc/nav1.php';?>
       <div class="col-sm-12 content">
-        <?php while ($data_atcl_info=mysql_fetch_array($query_atcl_info)) {
+        <?php while ($data_atcl_info=mysqli_fetch_array($query_atcl_info)) {
           include 'inc/atcl_list.php';
           }
         ?>
